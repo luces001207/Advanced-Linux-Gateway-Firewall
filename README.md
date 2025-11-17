@@ -3,8 +3,6 @@
 
 This project implements a **Linux-based secure gateway** that acts as a **router, firewall, DNS caching server, and traffic inspection proxy** for an isolated internal Windows/Linux client. All traffic from the internal network is forced through this hardened Linux gateway, allowing complete visibility and control over outbound and inbound packets.
 
-Originally built as part of a graduate-level cybersecurity course, this version is expanded into a **portfolio-ready GitHub project** showcasing hands-on skills in system hardening, network defense, and traffic monitoring.
-
 ---
 
 ## 📌 Table of Contents
