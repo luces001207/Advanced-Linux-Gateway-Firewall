@@ -41,7 +41,7 @@ The internal VM has **no direct internet access**—all packets flow through the
 
 ---
 
-## Key Features ⭐ 
+## Key Features
 
 ### 🔐 **Firewall + Router + Proxy**
 The Linux VM simultaneously acts as:
@@ -70,7 +70,7 @@ Full packet capture to verify routing, filtering, and blocked packets.
 
 ---
 
-## Architecture 🏗 
+## Architecture 
 
 ```
  ┌──────────────────────────────┐
@@ -95,7 +95,7 @@ The internal VM uses:
 
 ---
 
-## Skills Demonstrated 🧠 
+## Skills Demonstrated
 
 ### 🛡 Cybersecurity & System Hardening
 - Designing firewall rule sets  
@@ -221,7 +221,7 @@ iptables -A FORWARD -p tcp --syn --dport 443   -m limit --limit 10/hour --limit-
 
 ---
 
-### ICMP Filtering 📡 
+### ICMP Filtering
 
 Allow only outgoing pings:
 ```bash
@@ -257,7 +257,7 @@ iptables -A FORWARD -i eth0 -o eth1 -p icmp -j DROP
 ```
 ---
 
-## Future Improvements 🚧
+## Future Improvements
 
 - Migrate firewall from iptables → nftables  
 - Add Suricata IDS/IPS  
@@ -267,6 +267,6 @@ iptables -A FORWARD -i eth0 -o eth1 -p icmp -j DROP
 
 ---
 
-## License 📜
+## License
 
 For educational and ethical cybersecurity use only.
