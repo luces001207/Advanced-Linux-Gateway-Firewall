@@ -257,7 +257,7 @@ iptables -A FORWARD -i eth0 -o eth1 -p icmp -j DROP
 ```
 ---
 
-## Future Improvements 🚧
+# Future Improvements 🚧
 
 - Migrate firewall from iptables → nftables  
 - Add Suricata IDS/IPS  
@@ -267,6 +267,6 @@ iptables -A FORWARD -i eth0 -o eth1 -p icmp -j DROP
 
 ---
 
-## License 📜
+# License 📜
 
 For educational and ethical cybersecurity use only.
