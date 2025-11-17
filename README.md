@@ -117,7 +117,7 @@ The internal VM uses:
 
 ---
 
-## Technical Implementation 🔧 
+## Technical Implementation
 
 ## 1. Network Configuration
 
@@ -202,7 +202,7 @@ iptables -A FORWARD -j DROP
 
 ## 5. Advanced Security Controls
 
-### Logging Dropped Packets 🔍 
+### Logging Dropped Packets
 ```bash
 iptables -A FORWARD -j LOG   --log-prefix "lmong lab4 dropped: " --log-level 4
 ```
@@ -214,7 +214,7 @@ Logs stored in:
 
 ---
 
-### 🚦 HTTPS SYN Rate Limiting
+### HTTPS SYN Rate Limiting
 ```bash
 iptables -A FORWARD -p tcp --syn --dport 443   -m limit --limit 10/hour --limit-burst 10 -j ACCEPT
 ```
@@ -235,7 +235,7 @@ iptables -A FORWARD -i eth0 -o eth1 -p icmp -j DROP
 
 ---
 
-# Repository Structure 📂 
+# Repository Structure 
 
 ```
 .
