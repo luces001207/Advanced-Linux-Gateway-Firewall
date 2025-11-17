@@ -24,7 +24,7 @@ This project implements a **Linux-based secure gateway** that acts as a **router
 
 ---
 
-# Overview 📝 
+## Overview 📝 
 
 This project configures a Linux virtual machine to operate as a **secure network gateway** with:
 
